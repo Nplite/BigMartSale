@@ -4,7 +4,7 @@ training_pipeline_config:
 
 data_ingestion_config:
   train_dataset_download_url: https://raw.githubusercontent.com/pk1308/datasets/master/BigMartSales/Train.csv
-  data_ingestion_dir : stage00_data_ingestion
+  data_ingestion_dir : data_ingestion
   raw_data_dir: raw_data
   ingested_dir: ingested_data
   raw_data_file_name: Train.csv
@@ -13,7 +13,7 @@ data_ingestion_config:
 
 
 data_validation_config:
-  data_validation_dir: stage01_data_validation
+  data_validation_dir: data_validation
   schema_dir: config
   schema_file_name: schema.yaml
   report_dir : report
@@ -21,7 +21,7 @@ data_validation_config:
   report_page_file_name: report.html
 
 data_transformation_config:
-  data_transformation_dir: stage02_data_transformation
+  data_transformation_dir: data_transformation
   transformed_dir: transformed_data
   transformed_train_dir: train
   transformed_test_dir: test
@@ -30,7 +30,7 @@ data_transformation_config:
 
 
 model_trainer_config:
-  model_trainer_dir: stage03_model_training
+  model_trainer_dir: model_training
   trained_model_dir: trained_model
   model_file_name: model.pkl
   base_accuracy: 0.5
@@ -40,7 +40,7 @@ model_trainer_config:
 
 
 model_evaluation_config:
-  model_evaluation_dir: stage04_model_evaluation
+  model_evaluation_dir: model_evaluation
   model_evaluation_file_name: model_evaluation.yaml
   
 

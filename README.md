@@ -26,9 +26,8 @@ Retail stores keep track of individual item sales data in order to forecast futu
 
 Predict Item wise Sale for a store .
 
-# Application link
 
-https://pk-bigmartsalesprediction.herokuapp.com/
+
 
 # Approach
 

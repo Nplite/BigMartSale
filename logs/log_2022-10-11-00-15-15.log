@@ -1,0 +1,74 @@
+2022-10-11 at 00:15:50 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:15:53 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:15:53 | INFO |render_log_dir |
+ req_path: logs/log_2022-10-11-00-15-15.log
+2022-10-11 at 00:16:00 | INFO |predict |
+ predict called 
+2022-10-11 at 00:16:24 | INFO |predict |
+ predict called 
+2022-10-11 at 00:16:24 | INFO |predict |
+ prediction_data: <BigmartsalesPrediction.app_entity.app_predictor.Prediction_Data object at 0x00000282CA69FF60>
+2022-10-11 at 00:16:24 | INFO |predict |
+ app_predictor: <BigmartsalesPrediction.app_entity.app_predictor.App_predictor object at 0x00000282CA6C0C18>
+2022-10-11 at 00:16:24 | INFO |transform |
+ Transforming data
+2022-10-11 at 00:16:24 | INFO |predict |
+ context: {'predictor_data': {'Item_Identifier': ['Drink'], 'Item_Fat_Content': ['Regular'], 'Item_Type': ['Soft Drinks'], 'Outlet_Identifier': ['OUT049'], 'Outlet_Type': ['Supermarket Type1'], 'Item_MRP': [500.0], 'Item_Visibility': [3.0], 'Item_Weight': [5.0], 'Outlet_Location_Type': ['Tier 1'], 'Outlet_Size': ['Small'], 'Outlet_Establishment_Year': [2020]}, 'item_outlet_sales': array([3855.89047858])}
+2022-10-11 at 00:16:35 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='fd27771b-6c7f-40f3-93c6-7e78df07f961', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:16:35 | INFO |run_pipeline |
+ Pipeline starting.
+2022-10-11 at 00:16:35 | INFO |run_pipeline |
+ Pipeline experiment: fd27771b-6c7f-40f3-93c6-7e78df07f961
+2022-10-11 at 00:16:35 | INFO |get_data_ingestion_config |
+ Data Ingestion config: DataIngestionConfig(train_dataset_download_url='https://raw.githubusercontent.com/pk1308/datasets/master/BigMartSales/Train.csv', raw_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\data_ingestion\\fd27771b-6c7f-40f3-93c6-7e78df07f961\\raw_data\\Train.csv', ingested_test_data_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\data_ingestion\\fd27771b-6c7f-40f3-93c6-7e78df07f961\\ingested_data\\Test.csv', ingested_train_data_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\data_ingestion\\fd27771b-6c7f-40f3-93c6-7e78df07f961\\ingested_data\\Train.csv')
+2022-10-11 at 00:16:35 | INFO |__init__ |
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+2022-10-11 at 00:17:05 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:17:30 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='f8533c1a-1547-45c9-9e93-154207bf2fd9', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:19:06 | INFO |__del__ |
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+2022-10-11 at 00:19:15 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='5441270d-d3e5-4542-ae75-3b7595035134', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:19:20 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:19:36 | INFO |predict |
+ predict called 
+2022-10-11 at 00:20:17 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:20:21 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='f819780a-9e4e-4386-b8ce-39b61ac57cdf', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:23:09 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='b6e1a452-7f9c-4adc-9ceb-3155010c6080', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:23:13 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='eb95042e-97d7-472a-8526-65e726fdb7e0', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:23:16 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='301a831f-329e-4d5d-bd41-2accb43e3aae', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:23:47 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:26:02 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='86c01a6f-647e-473c-a4a4-66c1d9cfba1f', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:26:10 | INFO |predict |
+ predict called 
+2022-10-11 at 00:26:16 | INFO |render_log_dir |
+ req_path: logs
+2022-10-11 at 00:26:23 | INFO |render_log_dir |
+ req_path: logs/log_2022-10-11-00-15-15.log
+2022-10-11 at 00:26:31 | INFO |render_log_dir |
+ req_path: logs/log_2022-10-11-00-08-21.log
+2022-10-11 at 00:28:19 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='241d64ce-d666-4d0c-9018-02aa9e07818b', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:28:36 | INFO |predict |
+ predict called 
+2022-10-11 at 00:29:15 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='f5bc5d90-e4d4-4614-91d6-27378d457f6f', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:29:20 | INFO |get_training_pipeline_config |
+ Training pipeline config: TrainingPipelineConfig(experiment_id='82a811b2-9064-4abc-b9b5-6aea7248ab13', previous_experiment_id=None, artifact_dir='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact', experiment_file_path='C:\\Users\\Nplite\\Desktop\\BigMart-Sales-Data-master\\BigmartsalesPrediction\\app_artifact\\experiment\\experiment.csv')
+2022-10-11 at 00:29:21 | INFO |predict |
+ predict called 

@@ -4,7 +4,7 @@ from typing import List
 # Declaring variables for setup functions
 PROJECT_NAME = "BigmartsalesPrediction"
 VERSION = "0.0.1"
-AUTHOR = "PK"
+AUTHOR = "Namdeo Patil"
 DESCRIPTION = "This is a project for BigMart Sales"
 
 REQUIREMENT_FILE_NAME = "requirements.txt"

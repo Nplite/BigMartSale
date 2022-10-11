@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+housing/artifact
 # Distribution / packaging
 .Python
 build/
@@ -54,9 +54,8 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
+.idea/*
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -127,3 +126,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Notebooks/
+BigmartsalesPrediction/artifact
+.vscode/
+.idea/
+.vscode/settings.json
+.dvc
+Eda/eda.ipynb
+BigmartsalesPrediction/app_artifact/stage00_data_ingestion
+BigmartsalesPrediction/app_artifact/stage02_data_transformation
+/home/pk/Desktop/MachineLearning/project/BigMart-Sales-Data/Eda/____.ipynb
+/BigmartsalesPrediction/app_artifact/stage01_data_validation/
+catboost_info/
+
+
+*.logBigmartsalesPrediction/app_artifact/stage01_data_validation/
+
+Eda/____.ipynb
+Eda/Eda copy.ipynb
+config/schema_orginal.yaml
+*.csv
+
+BigmartsalesPrediction/app_artifact/stage04_model_evaluation/*
+BigmartsalesPrediction/app_artifact/stage03_model_training/*
+Eda/__log.ipynb
+Eda/logs.log
