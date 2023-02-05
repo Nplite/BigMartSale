@@ -36,21 +36,6 @@ model_selection:
       learning_rate :
         - 0.1
         - 0.001
-  model_3:
-    module: catboost
-    class: CatBoostRegressor
-    search_param_grid:
-      iterations:
-        - 100
-      learning_rate:
-        - 0.1
-        - 0.2
-      depth:
-        - 4
-        - 5
-      l2_leaf_reg:
-        - 0.4
-        - 0.5
 
 
  
